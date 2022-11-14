@@ -3783,6 +3783,10 @@ li.portfolio-item.show {
     position: relative;
     padding: 27px 0 27px 24px;
 }
+.service1{
+    position: relative;
+    padding: 27px 0 27px 24px;
+}
 
 .service::after {
     content: '';
@@ -3817,11 +3821,11 @@ li.portfolio-item.show {
     background-image: url("../../assets/img/svg/money-hover.svg");
 }
 
-.service.service-3 .icon-image {
+.service1.service-3 .icon-image {
     background-image: url("../../assets/img/svg/ship.svg");
 }
 
-.service.service-3:hover .icon-image {
+.service1.service-3:hover .icon-image {
     background-image: url("../../assets/img/svg/ship-hover.svg");
 }
 
@@ -3833,7 +3837,8 @@ li.portfolio-item.show {
     background-image: url("../../assets/img/svg/gift-hover.svg");
 }
 
-.service:hover .icon-image {
+.service:hover .icon-image,
+.service1:hover .icon-image {
     transform: rotateY(180deg);
 }
 
