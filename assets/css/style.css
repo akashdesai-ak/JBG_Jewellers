@@ -4151,6 +4151,6 @@ li.portfolio-item.show {
 }
 .top-menu .dropdown-item:hover,
 .top-menu .dropdown-item:active {
-    color: #d69531;
-    background-color: transparent;
+    color: #d69531 !important;
+    background-color: transparent !important;
 }
