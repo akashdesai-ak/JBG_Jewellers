@@ -4137,10 +4137,10 @@ li.portfolio-item.show {
 }
 .top-menu li a{
     font-size: 0.8rem !important;
-    color: #fff !important;
+    color: #fff ;
 }
 .top-menu li a:hover{
-    color: #fff !important;
+    color: #fff ;
 }
 
 @media screen and (max-width:600px ) {
