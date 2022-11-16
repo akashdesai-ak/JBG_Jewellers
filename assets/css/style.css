@@ -4130,4 +4130,27 @@ li.portfolio-item.show {
 
 
 
+.top-menu{
+    padding: 20px 5px;
+    background-color: #d69531;
+    
+}
+.top-menu li a{
+    font-size: 0.8rem;
+    color: #fff;
+}
+.top-menu li a:hover{
+    color: #fff ;
+}
 
+@media screen and (max-width:600px ) {
+    .top-menu{
+        display: none;
+    }
+    
+}
+.top-menu .dropdown-item:hover,
+.top-menu .dropdown-item:active {
+    color: #d69531;
+    background-color: transparent;
+}
