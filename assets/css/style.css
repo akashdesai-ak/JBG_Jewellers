@@ -3256,7 +3256,7 @@ del {
     margin-right: 10px;
 }
 
-. deatil span {
+.deatil span {
     margin-left: 10px;
     font-size: 14px;
     color: #707070;
@@ -4132,20 +4132,20 @@ li.portfolio-item.show {
 
 .top-menu{
     padding: 20px 5px;
-    background-color: #d69531;
+    background-color: #d69531 !important;
     
 }
 .top-menu li a{
-    font-size: 0.8rem;
-    color: #fff;
+    font-size: 0.8rem !important;
+    color: #fff !important;
 }
 .top-menu li a:hover{
-    color: #fff ;
+    color: #fff !important;
 }
 
 @media screen and (max-width:600px ) {
     .top-menu{
-        display: none;
+        display: none !important;
     }
     
 }
